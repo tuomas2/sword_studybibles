@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-beautifulsoup4==4.6.0
-jinja2==2.10
-lxml==4.2.1
+beautifulsoup4==4.6.0     # via -r requirements.in
+jinja2==2.10              # via -r requirements.in
+lxml==4.6.2               # via -r requirements.in
 markupsafe==1.0           # via jinja2
